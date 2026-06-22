@@ -37,11 +37,12 @@ A full-stack user analytics application that tracks session events (page views &
 - Node.js ≥ 18
 - MongoDB running locally (or a MongoDB Atlas URI)
 
+
 ### 1. Clone & install
 
 ```bash
-git clone <your-repo-url>
-cd analytics-app
+git clone [https://github.com/mohsinbashir369/Analytics_Application_FSD.git](https://github.com/mohsinbashir369/Analytics_Application_FSD.git)
+cd Analytics_Application_FSD
 ```
 
 ### 2. Start the backend
@@ -58,7 +59,7 @@ npm start                     # runs on http://localhost:5000
 ```bash
 cd frontend
 npm install
-npm start                     # runs on http://localhost:3000
+npm start          # runs on http://localhost:3000
 ```
 
 ### 4. Open the demo page
