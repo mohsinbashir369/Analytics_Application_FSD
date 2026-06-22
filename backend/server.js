@@ -10,10 +10,11 @@ const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/analyt
 
 // Middleware
 app.use(cors({
-  origin: [process.env.FRONTEND_URL, 'null'], 
+  origin: ['https://analytics-application-fsd.vercel.app', 'null'], 
   credentials: true
 }));
 app.use(express.json());
+
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI)
