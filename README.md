@@ -130,26 +130,24 @@ The script automatically:
 ---
 
 ## Project Structure
-
-```
-analytics-app/
+Analytics_Application_FSD/
 ├── backend/
-│   ├── models/Event.js      # Mongoose schema
-│   ├── server.js            # Express app + all routes
+│   ├── models/Event.js    # Mongoose schema
+│   ├── server.js          # Express app + all routes
 │   ├── package.json
 │   └── .env.example
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Dashboard.js  # Overview stats
-│   │   │   ├── Sessions.js   # Session list + journey view
-│   │   │   └── Heatmap.js    # Canvas heatmap
-│   │   ├── api.js            # Fetch helpers
-│   │   ├── App.js            # Sidebar + routing
-│   │   ├── App.css           # Design system
-│   │   └── index.css         # CSS variables
-│   └── package.json
-└── tracker/
-    ├── tracker.js            # Tracking script (drop-in)
-    └── demo.html             # Test webpage
+└── frontend/
+    ├── public/
+    │   ├── demo.html      # Test storefront webpage (Drop-in demo)
+    │   └── tracker.js     # Analytics tracking script
+    ├── src/
+    │   ├── components/
+    │   │   ├── Dashboard.js  # Overview stats
+    │   │   ├── Sessions.js   # Session list + journey view
+    │   │   └── Heatmap.js    # Canvas heatmap
+    │   ├── api.js         # Fetch helpers
+    │   ├── App.js         # Sidebar + routing
+    │   ├── App.css        # Design system
+    │   └── index.css      # CSS variables
+    └── package.json
 ```
