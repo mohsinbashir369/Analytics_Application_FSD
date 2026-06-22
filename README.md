@@ -14,7 +14,13 @@ A full-stack user analytics application that tracks session events (page views &
 | Tracker | Vanilla JS (zero dependencies) |
 
 ---
+## 🚀 Live Deployments
 
+* **📊 Analytics Dashboard:** [analytics-application-fsd.vercel.app](https://analytics-application-fsd.vercel.app)
+* **⚡ Live Demo Storefront:** [analytics-application-fsd.vercel.app/demo.html](https://analytics-application-fsd.vercel.app/demo.html)
+* **⚙️ Backend API instance:** [causalfunnel-backend-lq0x.onrender.com](https://causalfunnel-backend-lq0x.onrender.com)
+
+---
 ## Features
 
 - **Event Tracking Script** — drop `tracker.js` into any webpage; tracks `page_view` and `click` events with session ID, coordinates, viewport size, and user-agent
