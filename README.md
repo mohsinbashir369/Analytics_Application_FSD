@@ -130,6 +130,8 @@ The script automatically:
 ---
 
 ## Project Structure
+
+```
 Analytics_Application_FSD/
 ├── backend/
 │   ├── models/Event.js    # Mongoose schema
